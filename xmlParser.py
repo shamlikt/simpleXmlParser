@@ -23,7 +23,8 @@ from pprint import pformat
 NAMESPACE = "{urn:hl7-org:v3}"
 FAMILY_TAG = "family"
 NAME_TAG = "given"
-
+MASKED_NAME =  "Patient Name"
+MASKED_FAMILY = "Patient Family Name"
 
 class XmlTaskException(Exception):
     '''Custom Error'''
@@ -51,12 +52,12 @@ def parse_xml(filename):
         raise XmlTaskException('"{}" not Found'.format(filename))
     return ET.parse(filename)
 
-def change_text(xmltree, custom_addr):
+def change_text(xmltree, custom_addr, new_value):
     ''' Mask the value with md5 hash
     '''
     tags = xmltree.findall('.//{}{}'.format(NAMESPACE, custom_addr))
     for tag in tags:
-        tag.text = get_hash(tag.text)
+        tag.text = new_value
     return xmltree
 
 def write_output(file_name, data):
@@ -65,10 +66,6 @@ def write_output(file_name, data):
     with open(file_name, "w") as f:
         f.write(data)
     
-def get_hash(value):
-    b_value = value.encode('utf-8')
-    return hashlib.md5(b_value).hexdigest()
-
 def main():
     args = parse_args()
     input_file = args.input
@@ -78,8 +75,8 @@ def main():
 
     xmlTree = parse_xml(input_file)
     if is_mask:
-        xmlTree = change_text(xmlTree, FAMILY_TAG)
-        xmlTree = change_text(xmlTree, NAME_TAG)
+        xmlTree = change_text(xmlTree, FAMILY_TAG, MASKED_FAMILY)
+        xmlTree = change_text(xmlTree, NAME_TAG, MASKED_NAME)
 
     s_xmlTree = tostring(xmlTree.getroot())
     if is_json:
