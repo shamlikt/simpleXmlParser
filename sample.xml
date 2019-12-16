@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="cda.xsl" type="text/xsl"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" 
+    xmlns:xsi="http://www.w3.org/2001/XDarrenLSchema-instance">
+    <realmCode code="US" />
+    <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3" />
+    <templateId root="2.16.840.1.113883.10.20.22.1.1" />
+    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.1.1" />
+    <templateId root="2.16.840.1.113883.10.20.22.1.2" />
+    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.1.2" />
+    <id assigningAuthorityName="eClinicalWorks" extension="e4ea950f-6616-44ab-b472-ffd629af4b11" root="2.16.840.1.113883.4.391" />
+    <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SUDarrenDarrenARIZATION OF EPISODE NOTE" />
+    <title>Patient Health Record</title>
+    <effectiveTime value="20190314010305+0000" />
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" />
+    <languageCode code="en-US" />
+    <setId assigningAuthorityName="ECW" extension="01af8b47-05a8-4b35-8efb-3844629e7b14" root="2.16.840.1.113883.4.391" />
+    <versionNumber value="310" />
+    <recordTarget>
+        <patientRole classCode="PAT">
+            <id assigningAuthorityName="Angelvale Darrenedical Center" extension="00018" root="2.16.840.1.113883.4.391.302724" />
+            <id assigningAuthorityName="Angelvale Darrenedical Center ACC NO" extension="00018" root="2.16.840.1.113883.4.391.302724.1" />
+            <addr use="PST">
+                <city>Darreniami</city>
+                <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                <state>FL</state>
+                <country>United States</country>
+                <postalCode>33173</postalCode>
+            </addr>
+            <telecom use="HP" value="202-555-0131" />
+            <patient>
+                <name>
+                    <family>Doe</family>
+                    <given>John</given>
+                    <given>John</given>
+                </name>
+                <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" />
+                <birthTime value="19781221" />
+                <raceCode nullFlavor="NI" />
+                <ethnicGroupCode nullFlavor="NI" />
+                <languageCommunication>
+                    <languageCode code="en" />
+                    <preferenceInd value="false" />
+                </languageCommunication>
+            </patient>
+        </patientRole>
+    </recordTarget>
+    <author>
+        <time value="20190313" />
+        <assignedAuthor>
+            <id extension="V3.0" root="2.16.840.1.113883.4.391" />
+            <addr nullFlavor="NA" />
+            <telecom nullFlavor="NA" value="202-555-0131" />
+            <assignedAuthoringDevice>
+                <manufacturerDarrenodelName>eClinicalWorks CCDA V3.0</manufacturerDarrenodelName>
+                <softwareName>eClinicalWorks</softwareName>
+            </assignedAuthoringDevice>
+            <representedOrganization>
+                <id root="2.16.840.1.113883.4.391.302724" />
+                <name>Angelvale Darrenedical Center</name>
+                <telecom value="202-555-0131" />
+                <addr>
+                    <city>Darreniami</city>
+                    <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                    <state>FL</state>
+                    <country>United States</country>
+                    <postalCode>33173</postalCode>
+                </addr>
+            </representedOrganization>
+        </assignedAuthor>
+    </author>
+    <custodian>
+        <assignedCustodian>
+            <representedCustodianOrganization>
+                <id extension="302724" root="2.16.840.1.113883.4.391" />
+                <name>Angelvale Darrenedical Center</name>
+                <telecom value="202-555-0131" />
+                <addr>
+                    <city>Darreniami</city>
+                    <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                    <state>FL</state>
+                    <country>United States</country>
+                    <postalCode>33173</postalCode>
+                </addr>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <informationRecipient>
+        <intendedRecipient>
+            <informationRecipient>
+                <name nullFlavor="UNK" />
+            </informationRecipient>
+            <receivedOrganization>
+                <name nullFlavor="UNK" />
+                <addr nullFlavor="UNK" />
+            </receivedOrganization>
+        </intendedRecipient>
+    </informationRecipient>
+    <participant typeCode="IND">
+        <associatedEntity classCode="GUAR">
+            <addr>
+                <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                <city>Darreniami</city>
+                <state>FL</state>
+                <postalCode>33173</postalCode>
+                <country>United States</country>
+            </addr>
+            <telecom value="202-555-0131" />
+            <associatedPerson>
+                <name>
+                    <given>John</given>
+                    <family>Doe</family>
+                </name>
+            </associatedPerson>
+        </associatedEntity>
+    </participant>
+    <documentationOf>
+        <serviceEvent classCode="PCPR">
+            <effectiveTime>
+                <low value="19760615" />
+                <high value="20190313" />
+            </effectiveTime>
+            <performer typeCode="PRF">
+                <assignedEntity>
+                    <id nullFlavor="NI" />
+                    <addr>
+                        <postalCode nullFlavor="UNK">33173</postalCode>
+                    </addr>
+                    <telecom nullFlavor="NI" value="202-555-0131" />
+                    <assignedPerson>
+                        <name>
+                            <family>Doe</family>
+                            <given>John</given>
+                        </name>
+                    </assignedPerson>
+                </assignedEntity>
+            </performer>
+        </serviceEvent>
+    </documentationOf>
+    <component>
+        <structuredBody>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.5.1" />
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.5.1" />
+                    <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="PROBLEDarren LIST" />
+                    <title>PROBLEDarrenS</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Type </th>
+                                    <th>Condition </th>
+                                    <th>ICD9-CDarren Code </th>
+                                    <th>ICD10-CDarren Code </th>
+                                    <th>Onset Dates </th>
+                                    <th>Condition Status </th>
+                                    <th>SNODarrenED Code </th>
+                                    <th>Notes </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>migrated </td>
+                                    <td ID="problem2">Darrenigraine without aura, without mention of intractable migraine without mention of status migrainosus </td>
+                                    <td>346.10 </td>
+                                    <td />
+                                    <td />
+                                    <td>Active </td>
+                                    <td>425007008 </td>
+                                    <td>(DarrenigDS) </td>
+                                </tr>
+                                <tr>
+                                    <td>migrated </td>
+                                    <td ID="problem1">Cervicalgia </td>
+                                    <td>723.1 </td>
+                                    <td />
+                                    <td />
+                                    <td>Active </td>
+                                    <td>81680005 </td>
+                                    <td>(DarrenigDS) </td>
+                                </tr>
+                                <tr>
+                                    <td>Problem </td>
+                                    <td ID="problem3" />
+                                    <td />
+                                    <td />
+                                    <td />
+                                    <td>Active </td>
+                                    <td />
+                                    <td />
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                            <id extension="735b1c10-dbe8-496a-bc37-cf3b0e95d8e2" root="2.16.840.1.113883.4.391" />
+                            <code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+                            <statusCode code="active" />
+                            <effectiveTime>
+                                <low value="20050131" />
+                                <high nullFlavor="UNK" />
+                            </effectiveTime>
+                            <entryRelationship inversionInd="false" typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4" />
+                                    <id extension="47024" root="2.16.840.1.113883.4.391.302724.3" />
+                                    <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Problem">
+                                        <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem" />
+                                    </code>
+                                    <text>
+                                        <reference value="#problem2" />
+                                    </text>
+                                    <statusCode code="completed" />
+                                    <effectiveTime>
+                                        <low nullFlavor="NI" />
+                                    </effectiveTime>
+                                    <value code="425007008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Darrenigraine without aura, not refractory" xsi:type="CD">
+                                        <translation code="346.10" codeSystem="2.16.840.1.113883.6.104" codeSystemName="ICD9-CDarren" displayName="Darrenigraine without aura, without mention of intractable migraine without mention of status migrainosus" />
+                                    </value>
+                                    <entryRelationship typeCode="REFR">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.6" />
+                                            <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="STATUS" />
+                                            <statusCode code="completed" />
+                                            <value code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Active" xsi:type="CD" />
+                                        </observation>
+                                    </entryRelationship>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                            <id extension="a577890d-9920-44ed-ad86-8816b4ff4fff" root="2.16.840.1.113883.4.391" />
+                            <code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+                            <statusCode code="active" />
+                            <effectiveTime>
+                                <low value="20050221" />
+                                <high nullFlavor="UNK" />
+                            </effectiveTime>
+                            <entryRelationship inversionInd="false" typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4" />
+                                    <id extension="47023" root="2.16.840.1.113883.4.391.302724.2" />
+                                    <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Problem">
+                                        <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem" />
+                                    </code>
+                                    <text>
+                                        <reference value="#problem1" />
+                                    </text>
+                                    <statusCode code="completed" />
+                                    <effectiveTime>
+                                        <low nullFlavor="NI" />
+                                    </effectiveTime>
+                                    <value code="81680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Cervicalgia" xsi:type="CD">
+                                        <translation code="723.1" codeSystem="2.16.840.1.113883.6.104" codeSystemName="ICD9-CDarren" displayName="Cervicalgia" />
+                                    </value>
+                                    <entryRelationship typeCode="REFR">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.6" />
+                                            <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="STATUS" />
+                                            <statusCode code="completed" />
+                                            <value code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Active" xsi:type="CD" />
+                                        </observation>
+                                    </entryRelationship>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.3" />
+                            <id extension="a6692d3b-b010-47c5-8f68-f3aed2ebde1a" root="2.16.840.1.113883.4.391" />
+                            <code code="CONC" codeSystem="2.16.840.1.113883.5.6" />
+                            <statusCode code="active" />
+                            <effectiveTime>
+                                <low nullFlavor="UNK" />
+                            </effectiveTime>
+                            <entryRelationship inversionInd="false" typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4" />
+                                    <id extension="0f49df52-7930-408b-a108-547c5249cd1d" root="2.16.840.1.113883.4.391.302724.4" />
+                                    <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Problem">
+                                        <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem" />
+                                    </code>
+                                    <text>
+                                        <reference value="#problem3" />
+                                    </text>
+                                    <statusCode code="completed" />
+                                    <effectiveTime>
+                                        <low nullFlavor="NI" />
+                                    </effectiveTime>
+                                    <value nullFlavor="OTH" xsi:type="CD">
+                                        <translation code="UNK" codeSystem="UNK" codeSystemName="UNK" displayName="UNK" nullFlavor="UNK" />
+                                    </value>
+                                    <entryRelationship typeCode="REFR">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.6" />
+                                            <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="STATUS" />
+                                            <statusCode code="completed" />
+                                            <value code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Active" xsi:type="CD" />
+                                        </observation>
+                                    </entryRelationship>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section nullFlavor="NI">
+                    <templateId root="2.16.840.1.113883.10.20.22.2.6" />
+                    <templateId root="2.16.840.1.113883.10.20.22.2.6.1" />
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.6" />
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.6.1" />
+                    <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts" />
+                    <title>ALLERGIES</title>
+                    <text>No Information</text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.22.1" />
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.22.1" />
+                    <code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                    <title>ENCOUNTERS from 1976-06-15 to 2019-03-13</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Encounter </th>
+                                    <th>Location </th>
+                                    <th>Date </th>
+                                    <th>Darren </th>
+                                    <th>Diagnosis </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Angelvale Darrenedical Center </td>
+                                    <td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </td>
+                                    <td>18 Dec, 2015 </td>
+                                    <td>Darren May </td>
+                                    <td />
+                                </tr>
+                                <tr>
+                                    <td>Angelvale Darrenedical Center </td>
+                                    <td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </td>
+                                    <td>17 Dec, 2015 </td>
+                                    <td>Darren May </td>
+                                    <td />
+                                </tr>
+                                <tr>
+                                    <td>Angelvale Darrenedical Center </td>
+                                    <td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </td>
+                                    <td>07 Darrenar, 2005 </td>
+                                    <td>Darren May </td>
+                                    <td />
+                                </tr>
+                                <tr>
+                                    <td>Angelvale Darrenedical Center </td>
+                                    <td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </td>
+                                    <td>07 Darrenar, 2005 </td>
+                                    <td>Darren May </td>
+                                    <td />
+                                </tr>
+                                <tr>
+                                    <td>Angelvale Darrenedical Center </td>
+                                    <td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </td>
+                                    <td>21 Feb, 2005 </td>
+                                    <td>Darren May </td>
+                                    <td />
+                                </tr>
+                                <tr>
+                                    <td>Angelvale Darrenedical Center </td>
+                                    <td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </td>
+                                    <td>21 Feb, 2005 </td>
+                                    <td>Darren May </td>
+                                    <td>Cervicalgia 723.1 </td>
+                                </tr>
+                                <tr>
+                                    <td>Angelvale Darrenedical Center </td>
+                                    <td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </td>
+                                    <td>31 Jan, 2005 </td>
+                                    <td>Darren May </td>
+                                    <td />
+                                </tr>
+                                <tr>
+                                    <td>Angelvale Darrenedical Center </td>
+                                    <td>16 Edgefield Drive 16 Edgefield Drive ORLANDO, FL 33173 </td>
+                                    <td>31 Jan, 2005 </td>
+                                    <td>Darren May </td>
+                                    <td>Darrenigraine without aura, without mention of intractable migraine without mention of status migrainosus 346.10 </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <encounter classCode="ENC" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <id extension="242858" root="2.16.840.1.113883.4.391.302724" />
+                            <code nullFlavor="NI">
+                                <translation nullFlavor="NI" />
+                            </code>
+                            <effectiveTime value="20151218" />
+                            <performer>
+                                <assignedEntity>
+                                    <id nullFlavor="UNK" />
+                                    <assignedPerson>
+                                        <name>
+                                            <given>John</given>
+                                            <family>Doe</family>
+                                        </name>
+                                    </assignedPerson>
+                                </assignedEntity>
+                            </performer>
+                            <participant typeCode="LOC">
+                                <participantRole classCode="SDLOC">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <addr>
+                                        <city>Darreniami</city>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <state>FL</state>
+                                        <country>United States</country>
+                                        <postalCode>33173</postalCode>
+                                    </addr>
+                                    <telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <playingEntity classCode="PLC">
+                                        <name>Angelvale Darrenedical Center</name>
+                                    </playingEntity>
+                                </participantRole>
+                            </participant>
+                        </encounter>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <encounter classCode="ENC" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <id extension="242888" root="2.16.840.1.113883.4.391.302724" />
+                            <code nullFlavor="NI">
+                                <translation nullFlavor="NI" />
+                            </code>
+                            <effectiveTime value="20151217" />
+                            <performer>
+                                <assignedEntity>
+                                    <id nullFlavor="UNK" />
+                                    <assignedPerson>
+                                        <name>
+                                            <given>John</given>
+                                            <family>Doe</family>
+                                        </name>
+                                    </assignedPerson>
+                                </assignedEntity>
+                            </performer>
+                            <participant typeCode="LOC">
+                                <participantRole classCode="SDLOC">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <addr>
+                                        <city>Darreniami</city>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <state>FL</state>
+                                        <country>United States</country>
+                                        <postalCode>33173</postalCode>
+                                    </addr>
+                                    <telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <playingEntity classCode="PLC">
+                                        <name>Angelvale Darrenedical Center</name>
+                                    </playingEntity>
+                                </participantRole>
+                            </participant>
+                        </encounter>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <encounter classCode="ENC" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <id extension="148991" root="2.16.840.1.113883.4.391.302724" />
+                            <code nullFlavor="NI">
+                                <translation nullFlavor="NI" />
+                            </code>
+                            <effectiveTime value="20050307" />
+                            <performer>
+                                <assignedEntity>
+                                    <id nullFlavor="UNK" />
+                                    <assignedPerson>
+                                        <name>
+                                            <given>John</given>
+                                            <family>Doe</family>
+                                        </name>
+                                    </assignedPerson>
+                                </assignedEntity>
+                            </performer>
+                            <participant typeCode="LOC">
+                                <participantRole classCode="SDLOC">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <addr>
+                                        <city>Darreniami</city>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <state>FL</state>
+                                        <country>United States</country>
+                                        <postalCode>33173</postalCode>
+                                    </addr>
+                                    <telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <playingEntity classCode="PLC">
+                                        <name>Angelvale Darrenedical Center</name>
+                                    </playingEntity>
+                                </participantRole>
+                            </participant>
+                        </encounter>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <encounter classCode="ENC" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <id extension="262358" root="2.16.840.1.113883.4.391.302724" />
+                            <code nullFlavor="NI">
+                                <translation nullFlavor="NI" />
+                            </code>
+                            <effectiveTime value="20050307" />
+                            <performer>
+                                <assignedEntity>
+                                    <id nullFlavor="UNK" />
+                                    <assignedPerson>
+                                        <name>
+                                            <given>John</given>
+                                            <family>Doe</family>
+                                        </name>
+                                    </assignedPerson>
+                                </assignedEntity>
+                            </performer>
+                            <participant typeCode="LOC">
+                                <participantRole classCode="SDLOC">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <addr>
+                                        <city>Darreniami</city>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <state>FL</state>
+                                        <country>United States</country>
+                                        <postalCode>33173</postalCode>
+                                    </addr>
+                                    <telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <playingEntity classCode="PLC">
+                                        <name>Angelvale Darrenedical Center</name>
+                                    </playingEntity>
+                                </participantRole>
+                            </participant>
+                        </encounter>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <encounter classCode="ENC" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <id extension="148513" root="2.16.840.1.113883.4.391.302724" />
+                            <code nullFlavor="NI">
+                                <translation nullFlavor="NI" />
+                            </code>
+                            <effectiveTime value="20050221" />
+                            <performer>
+                                <assignedEntity>
+                                    <id nullFlavor="UNK" />
+                                    <assignedPerson>
+                                        <name>
+                                            <given>John</given>
+                                            <family>Doe</family>
+                                        </name>
+                                    </assignedPerson>
+                                </assignedEntity>
+                            </performer>
+                            <participant typeCode="LOC">
+                                <participantRole classCode="SDLOC">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <addr>
+                                        <city>Darreniami</city>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <state>FL</state>
+                                        <country>United States</country>
+                                        <postalCode>33173</postalCode>
+                                    </addr>
+                                    <telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <playingEntity classCode="PLC">
+                                        <name>Angelvale Darrenedical Center</name>
+                                    </playingEntity>
+                                </participantRole>
+                            </participant>
+                        </encounter>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <encounter classCode="ENC" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <id extension="243638" root="2.16.840.1.113883.4.391.302724" />
+                            <code nullFlavor="NI">
+                                <translation nullFlavor="NI" />
+                            </code>
+                            <effectiveTime value="20050221" />
+                            <performer>
+                                <assignedEntity>
+                                    <id nullFlavor="UNK" />
+                                    <assignedPerson>
+                                        <name>
+                                            <given>John</given>
+                                            <family>Doe</family>
+                                        </name>
+                                    </assignedPerson>
+                                </assignedEntity>
+                            </performer>
+                            <participant typeCode="LOC">
+                                <participantRole classCode="SDLOC">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <addr>
+                                        <city>Darreniami</city>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <state>FL</state>
+                                        <country>United States</country>
+                                        <postalCode>33173</postalCode>
+                                    </addr>
+                                    <telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <playingEntity classCode="PLC">
+                                        <name>Angelvale Darrenedical Center</name>
+                                    </playingEntity>
+                                </participantRole>
+                            </participant>
+                            <entryRelationship typeCode="CODarrenP">
+                                <act classCode="ACT" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.80" />
+                                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.80" />
+                                    <code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+                                    <entryRelationship typeCode="SUBJ">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4" />
+                                            <id root="5F26E12A-8BFF-41A9-B27A-7E25492BF2C5" />
+                                            <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Diagnosis">
+                                                <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+                                            </code>
+                                            <statusCode code="completed" />
+                                            <effectiveTime>
+                                                <low value="20050221" />
+                                                <high value="20050221" />
+                                            </effectiveTime>
+                                            <value nullFlavor="OTH" xsi:type="CD">
+                                                <translation code="723.1" codeSystem="2.16.840.1.113883.6.104" codeSystemName="ICD9-CDarren" displayName="Cervicalgia 723.1" />
+                                            </value>
+                                        </observation>
+                                    </entryRelationship>
+                                </act>
+                            </entryRelationship>
+                        </encounter>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <encounter classCode="ENC" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <id extension="148704" root="2.16.840.1.113883.4.391.302724" />
+                            <code nullFlavor="NI">
+                                <translation nullFlavor="NI" />
+                            </code>
+                            <effectiveTime value="20050131" />
+                            <performer>
+                                <assignedEntity>
+                                    <id nullFlavor="UNK" />
+                                    <assignedPerson>
+                                        <name>
+                                            <given>John</given>
+                                            <family>Doe</family>
+                                        </name>
+                                    </assignedPerson>
+                                </assignedEntity>
+                            </performer>
+                            <participant typeCode="LOC">
+                                <participantRole classCode="SDLOC">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <addr>
+                                        <city>Darreniami</city>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <state>FL</state>
+                                        <country>United States</country>
+                                        <postalCode>33173</postalCode>
+                                    </addr>
+                                    <telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <playingEntity classCode="PLC">
+                                        <name>Angelvale Darrenedical Center</name>
+                                    </playingEntity>
+                                </participantRole>
+                            </participant>
+                        </encounter>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <encounter classCode="ENC" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.49" />
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.49" />
+                            <id extension="243639" root="2.16.840.1.113883.4.391.302724" />
+                            <code nullFlavor="NI">
+                                <translation nullFlavor="NI" />
+                            </code>
+                            <effectiveTime value="20050131" />
+                            <performer>
+                                <assignedEntity>
+                                    <id nullFlavor="UNK" />
+                                    <assignedPerson>
+                                        <name>
+                                            <given>John</given>
+                                            <family>Doe</family>
+                                        </name>
+                                    </assignedPerson>
+                                </assignedEntity>
+                            </performer>
+                            <participant typeCode="LOC">
+                                <participantRole classCode="SDLOC">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.32" />
+                                    <code codeSystem="2.16.840.1.113883.5.111" codeSystemName="HL7 RoleCode" nullFlavor="NI" />
+                                    <addr>
+                                        <city>Darreniami</city>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <streetAddressLine>16 Edgefield Drive</streetAddressLine>
+                                        <state>FL</state>
+                                        <country>United States</country>
+                                        <postalCode>33173</postalCode>
+                                    </addr>
+                                    <telecom nullFlavor="UNK" value="202-555-0131" />
+                                    <playingEntity classCode="PLC">
+                                        <name>Angelvale Darrenedical Center</name>
+                                    </playingEntity>
+                                </participantRole>
+                            </participant>
+                            <entryRelationship typeCode="CODarrenP">
+                                <act classCode="ACT" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.80" />
+                                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.80" />
+                                    <code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+                                    <entryRelationship typeCode="SUBJ">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.4" />
+                                            <id root="73D6D1E3-2C79-4CAD-84F9-37CF26A30F44" />
+                                            <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Diagnosis">
+                                                <translation code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis" />
+                                            </code>
+                                            <statusCode code="completed" />
+                                            <effectiveTime>
+                                                <low value="20050131" />
+                                                <high value="20050131" />
+                                            </effectiveTime>
+                                            <value nullFlavor="OTH" xsi:type="CD">
+                                                <translation code="346.10" codeSystem="2.16.840.1.113883.6.104" codeSystemName="ICD9-CDarren" displayName="Darrenigraine without aura, without mention of intractable migraine without mention of status migrainosus 346.10" />
+                                            </value>
+                                        </observation>
+                                    </entryRelationship>
+                                </act>
+                            </entryRelationship>
+                        </encounter>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section nullFlavor="NI">
+                    <templateId root="2.16.840.1.113883.10.20.22.2.2.1" />
+                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.2.1" />
+                    <code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of immunizations" />
+                    <title>IDarrenDarrenUNIZATIONS</title>
+                    <text>No Information</text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.17" />
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.17" />
+                    <code code="29762-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SOCIAL HISTORY" />
+                    <title>SOCIAL HISTORY</title>
+                    <text>
+                        <content>Sex Assigned At Birth:</content>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Social History Observation </th>
+                                    <th>Description </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td ID="BirthSexInfo">Sex Assigned At Birth </td>
+                                    <td>Unknown </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId extension="2016-06-01" root="2.16.840.1.113883.10.20.22.4.200" />
+                            <code code="76689-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Sex Assigned At Birth" />
+                            <text>
+                                <reference value="#BirthSexInfo" />
+                            </text>
+                            <statusCode code="completed" />
+                            <value nullFlavor="UNK" xsi:type="CD" />
+                        </observation>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.78" />
+                            <templateId root="2.16.840.1.113883.10.20.22.4.78" />
+                            <id extension="b3c9f802-3991-45c1-ba82-c98c06a6f876" root="2.16.840.1.113883.4.391" />
+                            <code code="72166-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Tobacco smoking status NHIS" />
+                            <statusCode code="completed" />
+                            <effectiveTime nullFlavor="NI" />
+                            <value nullFlavor="NI" xsi:type="AD" />
+                        </observation>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.85" />
+                            <templateId root="2.16.840.1.113883.10.20.22.4.85" />
+                            <id extension="b3c9f802-3991-45c1-ba82-c98c06a6f876" root="2.16.840.1.113883.4.391" />
+                            <code code="11367-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Tobacco Use" />
+                            <statusCode code="completed" />
+                            <effectiveTime>
+                                <low nullFlavor="UNK" />
+                            </effectiveTime>
+                            <value nullFlavor="NI" xsi:type="AD" />
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1" />
+                    <templateId extension="2014-06-09" root="1.3.6.1.4.1.19376.1.5.3.1.3.1" />
+                    <code code="42349-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="REASON FOR REFERRAL" />
+                    <title>REASON FOR REFERRAL</title>
+                    <text>No Information</text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.4.1" />
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.4.1" />
+                    <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="VITAL SIGNS" />
+                    <title>VITAL SIGNS from 1976-06-15 to 2019-03-13</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <tbody>
+                                <tr>
+                                    <th ID="vital1">Heart Rate </th>
+                                    <td>N/A /min </td>
+                                    <td>07 Darrenar, 2005 </td>
+                                </tr>
+                                <tr>
+                                    <th ID="vital2">Weight </th>
+                                    <td>N/A lbs </td>
+                                    <td>07 Darrenar, 2005 </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <organizer classCode="CLUSTER" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.26" />
+                            <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.4.26" />
+                            <id extension="7e0cbf8a-760e-4706-8817-98a0bf1876c7" root="2.16.840.1.113883.4.391" />
+                            <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNODarrenED CT" displayName="Vital signs">
+                                <translation code="74728-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Vital signs, weight, height, head circumference, oximetry, BDarrenI, and BSA panel " />
+                            </code>
+                            <statusCode code="completed" />
+                            <effectiveTime>
+                                <low value="20050307" />
+                                <high value="20050307" />
+                            </effectiveTime>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.27" />
+                                    <id extension="d58f723e-f501-4551-a563-4d27a3877fe6" root="2.16.840.1.113883.4.391" />
+                                    <code code="8867-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="heart rate" />
+                                    <text>
+                                        <reference value="#vital1" />
+                                    </text>
+                                    <statusCode code="completed" />
+                                    <effectiveTime value="20050307090000-0400" />
+                                    <value unit="/min" xsi:type="PQ" />
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.27" />
+                                    <id extension="516e0691-992d-4bbc-88a0-9923046c33c2" root="2.16.840.1.113883.4.391" />
+                                    <code code="29463-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="weight" />
+                                    <text>
+                                        <reference value="#vital2" />
+                                    </text>
+                                    <statusCode code="completed" />
+                                    <effectiveTime value="20050307090000-0400" />
+                                    <value unit="[lb_av]" xsi:type="PQ" />
+                                </observation>
+                            </component>
+                        </organizer>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.1.1" />
+                    <templateId root="2.16.840.1.113883.10.20.22.2.1.1" />
+                    <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of medication use" />
+                    <title>DarrenEDICATIONS</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Darrenedication </th>
+                                    <th>SIG (Take, Route, Frequency, Duration) </th>
+                                    <th>Start Date </th>
+                                    <th>End Date </th>
+                                    <th>Status </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td ID="medication2">Relpax 40mg Tablet Take 1 tab(s) po once at the onset of headache 40mg Tablet </td>
+                                    <td ID="instruction2">Take 1 tablet(s) by mouth once at the onset of headache for 30 </td>
+                                    <td>31 Jan, 2005 </td>
+                                    <td />
+                                    <td>Active </td>
+                                </tr>
+                                <tr>
+                                    <td ID="medication3">Relpax 40mg TabletTake 1 tab(s) po once at the onset of headache#10 (Ten) tablet(s) 40mg Tablet </td>
+                                    <td ID="instruction3">Take 1 tablet(s) by mouth once at the onset of headache for 30 </td>
+                                    <td>21 Feb, 2005 </td>
+                                    <td />
+                                    <td>Active </td>
+                                </tr>
+                                <tr>
+                                    <td ID="medication1">Topamax 25mg Capsules, Sprinkle1 cap(s) po bid#60 (Sixty) capsule(s) 25mg Capsules, Sprinkle </td>
+                                    <td ID="instruction1">Take 1 capsule(s) by mouth bid for 30 </td>
+                                    <td>21 Feb, 2005 </td>
+                                    <td />
+                                    <td>Active </td>
+                                </tr>
+                                <tr>
+                                    <td ID="medication4">Propranolol HCl 80mg Capsules, Extended Release 80mg Capsules, Extended Release </td>
+                                    <td ID="instruction4" />
+                                    <td>31 Jan, 2005 </td>
+                                    <td />
+                                    <td>Active </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADDarren" moodCode="EVN">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16" />
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+                            <id extension="1d547c68-be3b-402c-8df5-421c6d7f3711" root="2.16.840.1.113883.4.391" />
+                            <text>
+                                <reference value="#medication2" />
+                            </text>
+                            <statusCode code="active" />
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low value="20050131" />
+                                <high nullFlavor="NI" />
+                            </effectiveTime>
+                            <effectiveTime institutionSpecified="true" operator="A" xsi:type="PIVL_TS">
+                                <period nullFlavor="UNK" />
+                            </effectiveTime>
+                            <doseQuantity nullFlavor="UNK" />
+                            <consumable>
+                                <manufacturedProduct classCode="DarrenANU">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <manufacturedDarrenaterial>
+                                        <code nullFlavor="OTH">
+                                            <originalText>
+                                                <reference value="#medication2" />
+Relpax 40mg Tablet Take 1 tab(s) po once at the onset of headache 40mg Tablet</originalText>
+                                            <translation code="UNK" codeSystemName="UNK" displayName="UNK" />
+                                        </code>
+                                    </manufacturedDarrenaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                                <time nullFlavor="NI" />
+                                <assignedAuthor>
+                                    <id nullFlavor="NI" />
+                                    <assignedPerson>
+                                        <name>
+                                            <family>Doe</family>
+                                            <given>John</given>
+                                        </name>
+                                    </assignedPerson>
+                                </assignedAuthor>
+                            </author>
+                            <entryRelationship typeCode="CODarrenP">
+                                <substanceAdministration classCode="SBADDarren" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+                                    <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Darrenedication Instructions" />
+                                    <text>
+                                        <reference value="#instruction2" />
+                                    </text>
+                                    <consumable>
+                                        <manufacturedProduct>
+                                            <manufacturedLabeledDrug nullFlavor="NA" />
+                                        </manufacturedProduct>
+                                    </consumable>
+                                </substanceAdministration>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADDarren" moodCode="EVN">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16" />
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+                            <id extension="85da008b-c8ed-469c-9f3e-b400352efb24" root="2.16.840.1.113883.4.391" />
+                            <text>
+                                <reference value="#medication3" />
+                            </text>
+                            <statusCode code="active" />
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low value="20050221" />
+                                <high nullFlavor="NI" />
+                            </effectiveTime>
+                            <effectiveTime institutionSpecified="true" operator="A" xsi:type="PIVL_TS">
+                                <period nullFlavor="UNK" />
+                            </effectiveTime>
+                            <doseQuantity nullFlavor="UNK" />
+                            <consumable>
+                                <manufacturedProduct classCode="DarrenANU">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <manufacturedDarrenaterial>
+                                        <code nullFlavor="OTH">
+                                            <originalText>
+                                                <reference value="#medication3" />
+Relpax 40mg Tablet
+Take 1 tab(s) po once at the onset of headache
+#10 (Ten) tablet(s) 40mg Tablet</originalText>
+                                            <translation code="UNK" codeSystemName="UNK" displayName="UNK" />
+                                        </code>
+                                    </manufacturedDarrenaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                                <time nullFlavor="NI" />
+                                <assignedAuthor>
+                                    <id nullFlavor="NI" />
+                                    <assignedPerson>
+                                        <name>
+                                            <family>Doe</family>
+                                            <given>John</given>
+                                        </name>
+                                    </assignedPerson>
+                                </assignedAuthor>
+                            </author>
+                            <entryRelationship typeCode="CODarrenP">
+                                <substanceAdministration classCode="SBADDarren" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+                                    <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Darrenedication Instructions" />
+                                    <text>
+                                        <reference value="#instruction3" />
+                                    </text>
+                                    <consumable>
+                                        <manufacturedProduct>
+                                            <manufacturedLabeledDrug nullFlavor="NA" />
+                                        </manufacturedProduct>
+                                    </consumable>
+                                </substanceAdministration>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADDarren" moodCode="EVN">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16" />
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+                            <id extension="9684a23a-74ca-46ac-9665-a99682a49b59" root="2.16.840.1.113883.4.391" />
+                            <text>
+                                <reference value="#medication1" />
+                            </text>
+                            <statusCode code="active" />
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low value="20050221" />
+                                <high nullFlavor="NI" />
+                            </effectiveTime>
+                            <effectiveTime institutionSpecified="true" operator="A" xsi:type="PIVL_TS">
+                                <period nullFlavor="UNK" />
+                            </effectiveTime>
+                            <doseQuantity nullFlavor="UNK" />
+                            <consumable>
+                                <manufacturedProduct classCode="DarrenANU">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <manufacturedDarrenaterial>
+                                        <code nullFlavor="OTH">
+                                            <originalText>
+                                                <reference value="#medication1" />
+Topamax 25mg Capsules, Sprinkle
+1 cap(s) po bid
+#60 (Sixty) capsule(s) 25mg Capsules, Sprinkle</originalText>
+                                            <translation code="UNK" codeSystemName="UNK" displayName="UNK" />
+                                        </code>
+                                    </manufacturedDarrenaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                                <time nullFlavor="NI" />
+                                <assignedAuthor>
+                                    <id nullFlavor="NI" />
+                                    <assignedPerson>
+                                        <name>
+                                            <family>Doe</family>
+                                            <given>John</given>
+                                        </name>
+                                    </assignedPerson>
+                                </assignedAuthor>
+                            </author>
+                            <entryRelationship typeCode="CODarrenP">
+                                <substanceAdministration classCode="SBADDarren" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.147" />
+                                    <code code="76662-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Darrenedication Instructions" />
+                                    <text>
+                                        <reference value="#instruction1" />
+                                    </text>
+                                    <consumable>
+                                        <manufacturedProduct>
+                                            <manufacturedLabeledDrug nullFlavor="NA" />
+                                        </manufacturedProduct>
+                                    </consumable>
+                                </substanceAdministration>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADDarren" moodCode="EVN">
+                            <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16" />
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16" />
+                            <id extension="16f3d6d9-73d0-46af-9912-84c6d6da62fc" root="2.16.840.1.113883.4.391" />
+                            <text>
+                                <reference value="#medication4" />
+                            </text>
+                            <statusCode code="active" />
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low value="20050131" />
+                                <high nullFlavor="NI" />
+                            </effectiveTime>
+                            <effectiveTime institutionSpecified="true" operator="A" xsi:type="PIVL_TS">
+                                <period nullFlavor="UNK" />
+                            </effectiveTime>
+                            <doseQuantity nullFlavor="UNK" />
+                            <consumable>
+                                <manufacturedProduct classCode="DarrenANU">
+                                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23" />
+                                    <manufacturedDarrenaterial>
+                                        <code nullFlavor="OTH">
+                                            <originalText>
+                                                <reference value="#medication4" />
+Propranolol HCl 80mg Capsules, Extended Release 80mg Capsules, Extended Release</originalText>
+                                            <translation code="UNK" codeSystemName="UNK" displayName="UNK" />
+                                        </code>
+                                    </manufacturedDarrenaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                                <time nullFlavor="NI" />
+                                <assignedAuthor>
+                                    <id nullFlavor="NI" />
+                                    <assignedPerson>
+                                        <name>
+                                            <family>Doe</family>
+                                            <given>John</given>
+                                        </name>
+                                    </assignedPerson>
+                                </assignedAuthor>
+                            </author>
+                        </substanceAdministration>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section nullFlavor="NI">
+                    <templateId root="2.16.840.1.113883.10.20.22.2.7.1" />
+                    <code code="47519-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="PROCEDURES" />
+                    <title>PROCEDURES</title>
+                    <text>
+                        <content ID="NKN_procedure">No Information</content>
+                    </text>
+                </section>
+            </component>
+            <component>
+                <section nullFlavor="NI">
+                    <templateId root="2.16.840.1.113883.10.20.22.2.3.1" />
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.3.1" />
+                    <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Results" />
+                    <title>RESULTS</title>
+                    <text>
+                        <content ID="NKN_results">No Results</content>
+                    </text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.12" />
+                    <code code="29299-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="REASON FOR VISIT" />
+                    <title>REASON FOR VISIT</title>
+                    <text>EDarrenR-Darrenig, EDarrenR-Darrenig, OV15, EDarrenR-Darrenig, OV15, EDarrenR-Darrenig, NP  , EDarrenR-Darrenig</text>
+                </section>
+            </component>
+            <component>
+                <section nullFlavor="NI">
+                    <templateId root="2.16.840.1.113883.10.20.22.2.60" />
+                    <code code="61146-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Goals" />
+                    <title>Goals Section</title>
+                    <text>No Information</text>
+                </section>
+            </component>
+            <component>
+                <section nullFlavor="NI">
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.58" />
+                    <code code="75310-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Health Concerns Document" />
+                    <title>Health Concerns</title>
+                    <text>No Information</text>
+                </section>
+            </component>
+            <component>
+                <section nullFlavor="NI">
+                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.23" />
+                    <templateId root="2.16.840.1.113883.10.20.22.2.23" />
+                    <code code="46264-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Darrenedical Equipment" />
+                    <title>DarrenEDICAL EQUIPDarrenENT</title>
+                    <text>No Information</text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId extension="2015-08-01" root="2.16.840.1.113883.10.20.22.2.56" />
+                    <code code="10190-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="DarrenENTAL STATUS" />
+                    <title>DarrenENTAL STATUS</title>
+                    <text>No Information</text>
+                </section>
+            </component>
+            <component>
+                <section nullFlavor="NI">
+                    <templateId root="2.16.840.1.113883.10.20.22.2.14" />
+                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.14" />
+                    <code code="47420-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Functional Status" />
+                    <title>FUNCTIONAL STATUS</title>
+                    <text>No Information</text>
+                </section>
+            </component>
+            <component>
+                <section nullFlavor="NI">
+                    <templateId root="2.16.840.1.113883.10.20.22.2.8" />
+                    <code code="51848-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Assessments" />
+                    <title>ASSESSDarrenENTS</title>
+                    <text>No Information</text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.10" />
+                    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.2.10" />
+                    <code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Plan of Treatment" />
+                    <title>PLAN OF TREATDarrenENT</title>
+                    <text>No Information</text>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>

@@ -1,0 +1,21 @@
+* Simple XML Parser Sample
+
+** Install 
+*** Activate virtualenv
+*** pip install xmltodict
+
+** requirement
+*** xmltodict
+
+** Usage
+*** =python3 xmlParser.py --input <inputfile> --output <outputfile> --json --mask=
+*** --json: This option will convert xml to json file <using 3rd party library>
+*** --mask: masking the user information with unique value ( Here I am used md5 hashing)
+** Example
+*** =python3 xmlParser.py --input sample.xml --output output.xml --mask=
+*** =python3 xmlParser.py --input sample.xml --output output.json --json=
+*** =python3 xmlParser.py --input sample.xml --output output.json --json --mask=
+
+
+
+
